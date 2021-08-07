@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.css"
+        integrity="sha512-XGzueDyvtZ3lWyfcXM5ukFPMUlcDMlfeDDkPAjhyRWzPiTYI4xaHPbKJ3xmDqgWeHzmodpPllo8l6eLPbhHlIw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <title>Bài test layout cơ bản</title>
+</head>
+
+<body class="preloading">
+    <div id="preload" class="preload-container">
+        <img src="assets/images/loading.gif" alt="">
+    </div>
+    <header class="navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <nav class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#home"><img src="assets/images/logo.png"></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#my-navbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse text-center" id="my-navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="active" href="#home">About</a></li>
+                            <li><a href="#about">Service</a></li>
+                            <li><a href="#portfolio">Work</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            <li><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false"><i class="fa fa-search"></i></a>
+                                <ul class="dropdown-menu">
+                                    <form action="#" method="post" class="navbar-form" role="search">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                        </div>
+                                    </form>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- home -->
+    <section id="home">
+        <div class="box-home-slider">
+            <input type="radio" id="banner1" class="time-tranfer" name="banner" checked>
+            <input type="radio" id="banner2" class="time-tranfer" name="banner">
+            <input type="radio" id="banner3" class="time-tranfer" name="banner">
+            <input type="radio" id="banner4" class="time-tranfer" name="banner">
+            <div class="slider">
+                <div id="top-banner-1" class="banner">
+                    <div class="content-inner">
+                        <h2>Creative Template</h2>
+                        <h1>Welcome<br>to MoGo</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#about">Learn More</a></div>
+                    </div>
+                </div>
+                <div id="top-banner-2" class="banner">
+                    <div class="content-inner">
+                        <h2>What We Do</h2>
+                        <h1>Great<br>MoGo</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#portfolio">Learn More</a></div>
+                    </div>
+                </div>
+                <div id="top-banner-3" class="banner">
+                    <div class="content-inner">
+                        <h2>Here We Are</h2>
+                        <h1>We Are<br>MoGo</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#blog">Learn More</a></div>
+                    </div>
+                </div>
+                <div id="top-banner-4" class="banner">
+                    <div class="content-inner">
+                        <h2>Our Contacts</h2>
+                        <h1>Welcome<br>to MoGo</h1>
+                        <div class="line"></div>
+                        <div class="learn-more-button"><a href="#contact">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="controls">
+                    <label for="banner1"><span class="progressbar"><span
+                                class="progressbar-fill"></span></span><span>01</span> Intro</label>
+                    <label for="banner2"><span class="progressbar"><span
+                                class="progressbar-fill"></span></span><span>02</span> Work</label>
+                    <label for="banner3"><span class="progressbar"><span
+                                class="progressbar-fill"></span></span><span>03</span> About</label>
+                    <label for="banner4"><span class="progressbar"><span
+                                class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- blog -->
+    <section id="about" class="about space-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="head_title text-center">
+                            <h4 class="subtitle">What we do</h4>
+                            <h2 class="name-title">Story about us</h2>
+                            <div class="separator"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no-padding">
+                        <div class="box-about">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="overlay"></div>
+                                <div class="element_about">
+                                    <div class="element_about_img"><img src="assets/images/ab1.jpg"></div>
+                                    <div class="element_about_img_overlay">
+                                        <a href="#anh-1">
+                                            <i class="fa fa-users"></i>
+                                            <p>super team</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="overlay"></div>
+                                <div class="element_about">
+                                    <div class="element_about_img"><img src="assets/images/ab2.jpg"></div>
+                                    <div class="element_about_img_overlay">
+                                        <a href="#anh-2">
+                                            <i class="fa fa-users"></i>
+                                            <p>super team</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="overlay"></div>
+                                <div class="element_about">
+                                    <div class="element_about_img"><img src="assets/images/ab3.jpg"></div>
+                                    <div class="element_about_img_overlay all_overlay">
+                                        <a href="#anh-3">
+                                            <i class="fa fa-users"></i>
+                                            <p>super team</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- count number -->
+    <section id="counter" class="counter">
+        <div class="container-fluid box-counter">
+            <div class="row">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="box-number">
+                            <div class="single_counter_item">
+                                <h2 class="number">42</h2>
+                                <p>web design projects</p>
+                            </div>
+                        </div>
+                        <div class="box-number">
+                            <div class="single_counter_item">
+                                <h2 class="number">123</h2>
+                                <p>happy client</p>
+                            </div>
+                        </div>
+                        <div class="box-number">
+                            <div class="single_counter_item">
+                                <h2 class="number">15</h2>
+                                <p>award winner</p>
+                            </div>
+                        </div>
+                        <div class="box-number">
+                            <div class="single_counter_item">
+                                <h2 class="number">99</h2>
+                                <p>cup of coffee</p>
+                            </div>
+                        </div>
+                        <div class="box-number box-number-end">
+                            <div class="single_counter_item">
+                                <h2 class="number">24</h2>
+                                <p>members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section id="portfolio" class="portfolio about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <div class="container">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <div class="head_title text-center">
+                                <h4 class="subtitle">What we do</h4>
+                                <h2 class="name-title">Some of our work</h2>
+                                <div class="separator"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 no-padding">
+                        <div class="box-about">
+                            <div class="col-sm-3 col-xs-12 no-margin no-padding">
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf1.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf1.jpg"
+                                        class="element_about_img_overlay">
+                                        <a href="#anh-1">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/blog-8.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/blog-8.jpg"
+                                        class="element_about_img_overlay">
+                                        <a href="#anh-1">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-12 no-margin no-padding">
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf2.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf2.jpg"
+                                        class="element_about_img_overlay">
+                                        <a href="#anh-2">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf6.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf6.jpg"
+                                        class="element_about_img_overlay">
+                                        <a href="#anh-1">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-12 no-margin no-padding">
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf3.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf3.jpg"
+                                        class="jellyfish element_about_img_overlay all_overlay">
+                                        <a href="#anh-3">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-12 no-margin no-padding">
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf4.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf4.jpg"
+                                        class="element_about_img_overlay all_overlay">
+                                        <a href="#anh-3">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="element_about no-margin">
+                                    <a class="element_about_img"><img src="assets/images/pf7.jpg"></a>
+                                    <div data-fancybox="portfolio-img" href="assets/images/pf7.jpg"
+                                        class="element_about_img_overlay all_overlay">
+                                        <a href="#anh-3">
+                                            <i class="far fa-image"></i>
+                                            <p class="monseratregular">creatively designed</p>
+                                            <p class="robotolight">Lorem ipsum dolor sit</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section id="blog" class="blog space-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="head_title text-center">
+                        <h4 class="subtitle">Our stories</h4>
+                        <h2 class="name-title">Latest blog</h2>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="main_blog_content">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="single_blog">
+                                    <div class="single_blog_img"><img src="assets/images/blog1.jpg">
+                                        <div class="single_blog_date">
+                                            <h2>12</h2>
+                                            <p class="robotolight">Jan</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_blog_content">
+                                        <a href="#" class="title-blog monseratregular">Lorem ipsum dolor sit amet</a>
+                                        <p class="monseratregular">Consectetur elit, sed do eiusmod tempor
+                                            incididunt ut labore et
+                                            dolore magna aliqua.</p>
+                                        <hr>
+                                        <div class="single_blog_bottom_content"><a class="robotolight" href="#"><i
+                                                    class="fa fa-eye"></i>552</a> <a class="robotolight" href="#"><i
+                                                    class="fas fa-comment-dots"></i>17</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single_blog">
+                                    <div class="single_blog_img"><img src="assets/images/blog2.jpg">
+                                        <div class="single_blog_date">
+                                            <h2>12</h2>
+                                            <p class="robotolight">Jan</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_blog_content">
+                                        <a href="#" class="title-blog monseratregular">sed do eiusmod tempor</a>
+                                        <p class="monseratregular">Adipiscing elit, sed do eiusmod tempor
+                                            incididunt
+                                            ut labore et dolore
+                                            magna aliqua.</p>
+                                        <hr>
+                                        <div class="single_blog_bottom_content"><a class="robotolight" href="#"><i
+                                                    class="fa fa-eye"></i>552</a> <a class="robotolight" href="#"><i
+                                                    class="fas fa-comment-dots"></i>17</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single_blog">
+                                    <div class="single_blog_img"><img src="assets/images/blog3.jpg">
+                                        <div class="single_blog_date">
+                                            <h2>12</h2>
+                                            <p class="robotolight">Jan</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_blog_content">
+                                        <a href="#" class="title-blog monseratregular">incididunt ut labore et
+                                            dolore</a>
+                                        <p class="monseratregular">Elit, sed do eiusmod tempor incididunt ut labore
+                                            et dolore magna
+                                            aliqua.</p>
+                                        <hr>
+                                        <div class="single_blog_bottom_content"><a class="robotolight" href="#"><i
+                                                    class="fa fa-eye"></i>552</a> <a class="robotolight" href="#"><i
+                                                    class="fas fa-comment-dots"></i>17</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- map -->
+    <section id="maps" class="maps">
+        <div class="home-overlay">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="main_maps text-center">
+                        <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 text-center">
+                            <div class="map_canvas_icon">
+                                <a data-fancybox data-type="iframe"
+                                    data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.9854000923156!2d107.60069071434165!3d16.476276932778156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a1a2ae884aef%3A0x1b439fdc9666c740!2zQ8O0bmcgdHkgY-G7lSBwaOG6p24gY8O0bmcgbmdo4buHIFZGRlRFQ0g!5e0!3m2!1svi!2s!4v1596899533102!5m2!1svi!2s"
+                                    href="javascript:;">
+                                    <i class="fas fa-map-marker-alt" onClick="showmap()"></i>
+                                    <h2 onClick="showmap()">Open map</h2>
+                                    <div class="separator"></div>
+                                </a>
+                            </div>
+                            <div id="map_canvas"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="footer_widget">
+        <div class="container">
+            <div class="row">
+                <div class="main_widget">
+                    <div class="col-sm-4 col-xs-12 box-blog-final space-bottom">
+                        <div class="single_widget">
+                            <div class="space-bottom-footer"><img src="assets/images/footerlogo.png"></div>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="footer_subcribs_area">
+                                <p class="monseratregular"><strong>15K</strong> <span>followers</span></p>
+                                <hr>
+                                <div class="flowus"><span href="#" class="robotolight txt-text"> Follow Us :</span> <a
+                                        href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
+                                            class="fab fa-twitter"></i></a> <a href="#"><i
+                                            class="fab fa-google-plus-g"></i></i></a> <a href="#"><i
+                                            class="fab fa-instagram"></i></a> <a href="#"><i
+                                            class="fab fa-pinterest-p"></i></a> <a href="#"><i
+                                            class="fab fa-youtube"></i></a> <a href="#"><i class="fa fa-rss"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                                <form action="#" method="post" class="navbar-form navbar-left no-padding no-margin"
+                                    role="search">
+                                    <div class="form-group row no-padding no-margin">
+                                        <input type="text" class="form-control col-xs-7" placeholder="Your Email">
+                                        <button type="submit" class="submit_btn col-xs-5">Subscribe</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-xs-12 space-bottom">
+                        <p class="monseratregular txt-uppercase txt-blogs space-bottom-footer">blogs</p>
+                        <div class="single_widget_blog row">
+                            <div class="col-xs-4 no-padding"><img src="assets/images/fb1.jpg"></div>
+                            <div class="single_widget_content col-xs-8">
+                                <a href="#">
+                                    <p class="monseratregular txt-uppercase">Lorem ipsum dolor sit amet,consectetur
+                                        adipiscing</p>
+                                </a>
+                                <p class="robotolight txt-text">Jan 9, 2016</p>
+                            </div>
+                        </div>
+                        <div class="single_widget_blog row">
+                            <div class="col-xs-4 no-padding"><img src="assets/images/fb2.jpg"></div>
+                            <div class="single_widget_content col-xs-8">
+                                <a href="#">
+                                    <p class="monseratregular txt-uppercase">Lorem ipsum dolor sit amet,consectetur
+                                        adipiscing</p>
+                                </a>
+                                <p class="robotolight txt-text">Jan 9, 2016</p>
+                            </div>
+                        </div>
+                        <div class="single_widget_blog row">
+                            <div class="col-xs-4 no-padding"><img src="assets/images/fb3.jpg"></div>
+                            <div class="single_widget_content col-xs-8">
+                                <a href="#">
+                                    <p class="monseratregular txt-uppercase">Lorem ipsum dolor sit amet,consectetur
+                                        adipiscing</p>
+                                </a>
+                                <p class="robotolight txt-text">Jan 9, 2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 no-padding space-bottom">
+                        <div class="single_widget" data-wow-duration="800ms">
+                            <p class="monseratregular txt-uppercase space-bottom-footer">instagram</p>
+                            <span class="separator4"></span>
+                            <div class="footer_gellary">
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg1.jpg">
+                                    <img src="assets/images/fg1.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg2.jpg">
+                                    <img src="assets/images/fg2.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg3.jpg">
+                                    <img src="assets/images/fg3.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg4.jpg">
+                                    <img src="assets/images/fg4.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg5.jpg">
+                                    <img src="assets/images/fg5.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg6.jpg">
+                                    <img src="assets/images/fg6.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg7.jpg">
+                                    <img src="assets/images/fg7.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg8.jpg">
+                                    <img src="assets/images/fg8.jpg">
+                                </a>
+                                <a class="col-xs-4 no-padding" data-fancybox="listgallery" href="assets/images/fg9.jpg">
+                                    <img src="assets/images/fg9.jpg">
+                                </a>
+                                <a href="#"><i class="txt-text">View more photo</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container text-center">
+            <div class="footer">
+                <p>© 2016 MoFo free PSD template by <span>Hòa</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js"
+        integrity="sha512-9s/WNXa83EmNcBiPEO2dFWJt1MmBzz+xCR0ca96zetZt9zIrVj8gn2xdD0edR3tab1rc/Ly34hnEZ7nT+tWLOw=="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
