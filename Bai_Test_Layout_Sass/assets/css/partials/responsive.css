@@ -1,0 +1,99 @@
+@media screen and (min-width: 768px) {
+  #home {
+    height: 581.4px;
+  }
+}
+@media screen and (min-width: 993px) {
+  #home {
+    height: 678.3px;
+  }
+}
+@media screen and (min-width: 1367px) {
+  body {
+    font-size: 20px;
+  }
+
+  #home {
+    height: 823.65px;
+  }
+  #home .box-home-slider .slider .banner .content-inner {
+    padding-top: 8em;
+  }
+  #home .box-home-slider nav .controls label {
+    font-size: 18px !important;
+    margin: 0 12px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  body {
+    font-size: 25px;
+  }
+
+  #home {
+    height: 998.07px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  #home .box-home-slider .slider .banner .content-inner .line {
+    margin: 2em auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+
+  #home .box-home-slider nav {
+    bottom: 0;
+  }
+  #home .box-home-slider nav .controls {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  #home .box-home-slider nav .controls {
+    width: 90%;
+  }
+  #home .box-home-slider .slider .banner .content-inner h2 {
+    font-size: 2em;
+  }
+  #home .box-home-slider .slider .banner .content-inner h1 {
+    font-size: 4.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    background: linear-gradient(to bottom, #db7476 0%, #dc8476 24%, #e09679 42%, #de9877 42%, #dd9b78 45%, #e1a779 55%, #dea879 57%, #e1ab7c 61%, #e0ad78 62%, #e1b47d 68%, #e2b57a 70%, #e0bd7d 77%, #e3bd7c 79%, #e1c37b 84%, #e4cd7d 100%);
+  }
+
+  #home .box-home-slider nav .controls {
+    width: 100%;
+  }
+  #home .box-home-slider nav .controls label {
+    width: 19%;
+    font-size: 0.8em;
+  }
+  #home .box-home-slider .slider .banner .content-inner .line {
+    margin: 1.7em auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #home .box-home-slider nav .controls label {
+    width: 40%;
+    font-size: 0.7em;
+  }
+  #home .box-home-slider .slider .banner .content-inner h2 {
+    font-size: 1.5em;
+  }
+  #home .box-home-slider .slider .banner .content-inner h1 {
+    font-size: 3em;
+  }
+  #home .box-home-slider .slider .banner .content-inner .line {
+    margin: 1.7em auto;
+  }
+}

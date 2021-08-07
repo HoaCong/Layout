@@ -1,0 +1,21 @@
+.box-counter {
+  background-color: var(--color-lightgreen);
+}
+.box-number {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+  p {
+    color: var(--color-white);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 24px;
+  }
+}
+
+.number {
+  color: var(--color-white);
+  font-size: 65px;
+  font-weight: 800;
+}

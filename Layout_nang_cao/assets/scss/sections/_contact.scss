@@ -1,0 +1,270 @@
+.contact {
+  background: #475a85;
+  padding: 4em 0em;
+}
+.contact-head {
+  h3 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  h4 {
+    color: #e6e9ef;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 6px;
+  }
+  img {
+    margin: 1em 0 0 0;
+  }
+}
+.contact-grids {
+  margin-top: 4em;
+}
+.address {
+  padding: 0;
+  h4 {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 600;
+  }
+  p {
+    color: #fff;
+    font-size: 1.15em;
+    margin: 1em 0 1.5em 0;
+    font-weight: 200;
+  }
+  h5 {
+    margin: 1.2em 0;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 200;
+    a {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: #56a7dc;
+      }
+    }
+    span {
+      background: url("../images/cnt-icons.png") no-repeat 0 0;
+      width: 25px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.5em;
+      &.img1 {
+        background-position: 2px 2px;
+      }
+      &.img2 {
+        background-position: 0px -44px;
+      }
+      &.img3 {
+        background-position: 0px -85px;
+      }
+    }
+  }
+}
+.address h4,
+.address p,
+.address h5 {
+  text-align: left;
+}
+.contact-reg {
+  form {
+    width: 100%;
+    padding-left: 10%;
+    input[type="text"]:nth-child(2) {
+      margin: 0 0 0 6%;
+    }
+    input[type="text"] {
+      width: 46.7%;
+    }
+    input[type="submit"] {
+      background: #ea5b58;
+      padding: 0.8em 3em;
+      border: none;
+      outline: none;
+      margin-top: 1em;
+      font-size: 1.2em;
+      border-radius: 6px;
+      border: 1px solid #ea5b58;
+      color: #fff;
+    }
+    input[type="submit"]:hover {
+      background: #161828;
+      border: 1px solid #fff;
+      color: #fff;
+      transition: 0.5s all;
+    }
+    textarea {
+      width: 100%;
+      margin-top: 1em;
+      min-height: 150px;
+      resize: none;
+      font-size: 1.2em;
+    }
+  }
+}
+.social-icons {
+  margin-top: 3em;
+  a {
+    span {
+      width: 44px;
+      height: 42px;
+      background: url("../images/social-icons.png") no-repeat 0px 0px;
+      display: inline-block;
+      &.facebook {
+        background-position: 0px 0px;
+        &:hover {
+          background-position: 0px 0px;
+        }
+      }
+      &.twitter {
+        background-position: -52px 0px;
+        &:hover {
+          background-position: -52px -48px;
+        }
+      }
+      &.googleplus {
+        background-position: -107px 0px;
+        &:hover {
+          background-position: -107px -48px;
+        }
+      }
+    }
+  }
+}
+.contact-reg form input[type="text"],
+.contact textarea {
+  color: #959595;
+  border: 1px solid #cdcdcd;
+  outline: 0;
+  padding: 1.2em;
+  border-radius: 6px;
+  font-size: 1.2em;
+}
+@media (max-width: 1200px) {
+  .contact-reg {
+    form {
+      padding: 0;
+      input[type="text"] {
+        width: 46.5%;
+      }
+    }
+  }
+  .address {
+    h5 {
+      margin: 1em 0;
+      font-size: 1em;
+    }
+  }
+  .contact-reg form input[type="text"],
+  .contact textarea {
+    padding: 0.7em;
+  }
+}
+@media (max-width: 991px) {
+  .social-icons {
+    margin-top: 2em;
+    text-align: center;
+  }
+  .contact-reg {
+    form {
+      width: 100%;
+      margin-top: 3em;
+      margin-left: 0;
+      input[type="text"]:nth-child(2) {
+        margin: 0;
+      }
+      input[type="submit"] {
+        margin-top: 0em;
+      }
+    }
+  }
+  .contact-reg form input[type="text"],
+  .contact-reg form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .address h4,
+  .address p,
+  .address h5 {
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .contact {
+    padding: 2em 0em;
+  }
+  .contact-grids {
+    margin-top: 3em;
+  }
+  .address {
+    p {
+      margin: 1em 0;
+    }
+    h5 {
+      margin: 0.5em 0;
+    }
+  }
+  .contact-reg {
+    form {
+      margin-top: 2em;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .contact-head {
+    h4 {
+      font-size: 13px;
+      margin-bottom: 1px;
+    }
+    img {
+      width: 44%;
+    }
+  }
+  .contact-grids {
+    margin-top: 2em;
+  }
+  .address {
+    h4 {
+      font-size: 1.1em;
+    }
+    h5 {
+      font-size: 0.9em;
+    }
+    p {
+      margin: 0.5em 0;
+      font-size: 0.9em;
+    }
+  }
+  .social-icons {
+    margin-top: 1em;
+  }
+  .contact-reg form input[type="text"],
+  .contact textarea {
+    padding: 0.5em;
+    font-size: 0.9em;
+  }
+  .contact-reg {
+    textarea {
+      min-height: 113px;
+      font-size: 0.9em;
+    }
+    form {
+      input[type="submit"] {
+        padding: 0.5em 3em;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .contact-head {
+    img {
+      width: 47%;
+    }
+  }
+}

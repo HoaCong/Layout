@@ -1,0 +1,75 @@
+#contact {
+  background: #f8f8f8;
+}
+#contact .monseratregular {
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer_widget .main_widget {
+  padding: 55px 15px 0px 15px;
+}
+
+.main_widget .description {
+  font-size: 15px;
+  margin: 16px 0 35px 0;
+}
+
+.flowus {
+  margin-bottom: 35px;
+}
+.flowus a {
+  color: var(--color-cyan);
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+#contact .navbar-form,
+#contact .form-group {
+  transform: none;
+}
+
+.footer_subcribs_area .form-control {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  width: 65%;
+  display: inline-block;
+  height: 34px;
+  border-radius: unset;
+}
+.footer_subcribs_area .submit_btn {
+  background: #95e1d3;
+  border: 1px solid #95e1d3;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: -4px;
+  height: 34px;
+  outline: none;
+  font-size: 13px;
+  line-height: 23px;
+  width: 35%;
+}
+
+.single_widget_blog {
+  display: inline-block;
+}
+.single_widget_blog img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#contact .single_widget_content .monseratregular,
+#contact .single_widget_content .robotolight {
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+
+.footer_gellary img {
+  width: 100%;
+  padding: 1px;
+}
+
+.single_widget a i {
+  font-size: 14px;
+}

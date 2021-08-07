@@ -1,0 +1,31 @@
+.fotter {
+  background: #161828;
+  min-height: 150px;
+  padding: 4em 0;
+  p {
+    color: #50515c;
+    font-size: 1.1em;
+    a {
+      color: #50515c;
+      text-decoration: none;
+      &:hover {
+        color: #ff7902;
+      }
+    }
+  }
+  h3 {
+    color: #6a6b74;
+    margin-top: 0.5em;
+    letter-spacing: 1px;
+    span {
+      color: #76777f;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .fotter {
+    min-height: 100px;
+    padding: 2em 0;
+  }
+}

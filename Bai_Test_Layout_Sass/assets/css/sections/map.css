@@ -1,0 +1,34 @@
+#maps {
+  background-image: url(../images/mapbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  padding: 60px 0;
+  position: relative;
+}
+#maps::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+#map .home-overlay {
+  position: relative;
+}
+
+#map .map_canvas_icon a h2,
+#map .map_canvas_icon .separator {
+  margin-top: 0;
+}
+
+#map .map_canvas_icon a,
+#map .map_canvas_icon a h2 {
+  color: var(--color-pinkred);
+  font-size: 20px;
+}

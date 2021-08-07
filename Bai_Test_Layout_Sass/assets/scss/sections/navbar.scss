@@ -1,0 +1,88 @@
+.nav-sticky {
+  background: linear-gradient(
+    to bottom,
+    rgb(219, 116, 118) 0%,
+    rgb(220, 132, 118) 24%,
+    rgb(224, 150, 121) 42%,
+    rgb(222, 152, 119) 42%,
+    rgb(221, 155, 120) 45%,
+    rgb(225, 167, 121) 55%,
+    rgb(222, 168, 121) 57%,
+    rgb(225, 171, 124) 61%,
+    rgb(224, 173, 120) 62%,
+    rgb(225, 180, 125) 68%,
+    rgb(226, 181, 122) 70%,
+    rgb(224, 189, 125) 77%,
+    rgb(227, 189, 124) 79%,
+    rgb(225, 195, 123) 84%,
+    rgb(228, 205, 125) 100%
+  );
+}
+header {
+  nav {
+    padding: 16px 0 10px 0;
+  }
+}
+nav {
+  .navbar-collapse {
+    max-height: unset !important;
+  }
+  .navbar-toggle {
+    border-color: #ddd;
+    &:hover {
+      background-color: #ddd;
+    }
+    i {
+      color: var(--color-text);
+    }
+  }
+  ul {
+    li {
+      a {
+        color: var(--color-white);
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li .active {
+  background-color: inherit !important;
+  color: var(--color-yellow);
+  border-bottom: 2px solid var(--color-lightorange);
+  transition: all 0.5s;
+}
+nav .open a,
+nav .open a:hover,
+nav .open a:focus {
+  background-color: unset !important;
+  border-color: var(--color-orange) !important;
+}
+.navbar-form {
+  margin-left: 0;
+  margin-right: 0;
+}
+.dropdown-menu {
+  background-color: unset;
+  border: none;
+  box-shadow: unset;
+  width: auto;
+  .form-group {
+    input[type="text"] {
+      background-color: rgba(34, 61, 97, 0.68);
+      border: 1px solid #f5c239;
+      color: #f5c239;
+      width: 100%;
+      border-radius: 30px;
+    }
+    input[type="text"]::placeholder {
+      color: #f5c239;
+    }
+  }
+  .navbar-form {
+    box-shadow: none;
+  }
+}

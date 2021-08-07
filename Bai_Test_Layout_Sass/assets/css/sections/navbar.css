@@ -1,0 +1,67 @@
+.nav-sticky {
+  background: linear-gradient(to bottom, #db7476 0%, #dc8476 24%, #e09679 42%, #de9877 42%, #dd9b78 45%, #e1a779 55%, #dea879 57%, #e1ab7c 61%, #e0ad78 62%, #e1b47d 68%, #e2b57a 70%, #e0bd7d 77%, #e3bd7c 79%, #e1c37b 84%, #e4cd7d 100%);
+}
+
+header nav {
+  padding: 16px 0 10px 0;
+}
+
+nav .navbar-collapse {
+  max-height: unset !important;
+}
+nav .navbar-toggle {
+  border-color: #ddd;
+}
+nav .navbar-toggle:hover {
+  background-color: #ddd;
+}
+nav .navbar-toggle i {
+  color: var(--color-text);
+}
+nav ul li a {
+  color: var(--color-white);
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li .active {
+  background-color: inherit !important;
+  color: var(--color-yellow);
+  border-bottom: 2px solid var(--color-lightorange);
+  transition: all 0.5s;
+}
+
+nav .open a,
+nav .open a:hover,
+nav .open a:focus {
+  background-color: unset !important;
+  border-color: var(--color-orange) !important;
+}
+
+.navbar-form {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.dropdown-menu {
+  background-color: unset;
+  border: none;
+  box-shadow: unset;
+  width: auto;
+}
+.dropdown-menu .form-group input[type=text] {
+  background-color: rgba(34, 61, 97, 0.68);
+  border: 1px solid #f5c239;
+  color: #f5c239;
+  width: 100%;
+  border-radius: 30px;
+}
+.dropdown-menu .form-group input[type=text]::placeholder {
+  color: #f5c239;
+}
+.dropdown-menu .navbar-form {
+  box-shadow: none;
+}

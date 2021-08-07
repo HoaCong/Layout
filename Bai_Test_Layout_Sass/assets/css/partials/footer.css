@@ -1,0 +1,36 @@
+#footer {
+  background-color: #f8f8f8;
+}
+#footer p {
+  font-size: 14px;
+  color: var(--color-black);
+  font-weight: 400;
+  margin: 0;
+}
+#footer p span {
+  color: var(--color-pinkred);
+}
+
+.footer {
+  padding: 22px 0;
+  border-top: 1px solid #ccc;
+}
+
+.box-blog-final {
+  padding: 0;
+}
+
+.txt-blogs {
+  margin-left: -15px;
+}
+
+.fancybox-thumbs {
+  width: 100% !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  top: unset !important;
+}
+
+.fancybox-show-thumbs .fancybox-inner {
+  right: 0 !important;
+}

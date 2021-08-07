@@ -1,0 +1,279 @@
+.portfolio {
+  padding: 5em 0 3em 0;
+  &.elements {
+    display: inline-block;
+    opacity: 1;
+  }
+  img {
+    max-width: 100%;
+    transition: all 300ms !important;
+  }
+  .label {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: -40px;
+  }
+  .label-bg {
+    background: #22b4b8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .label-text {
+    color: #fff;
+    position: relative;
+    z-index: 500;
+    padding: 5px 8px;
+  }
+  .text-category {
+    display: block;
+    font-size: 9px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
+.portfolio-head {
+  text-align: center;
+  h3 {
+    color: #323232;
+    font-size: 2.2em;
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  h4 {
+    color: #696969;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  img {
+    margin: 1em 0 0 0;
+  }
+}
+* {
+  Strip {
+    .b-link-stripe {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      overflow: hidden;
+    }
+  }
+}
+.b-link-stripe {
+  .b-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #ffffff;
+    &:hover {
+      background: rgba(50, 70, 81, 0.71);
+      transition: all 0.5s linear;
+    }
+  }
+}
+.b-animate-go {
+  text-decoration: none;
+  &:hover {
+    .b-animate {
+      visibility: visible;
+    }
+    .b-from-left {
+      left: 0;
+    }
+  }
+}
+.b-animate {
+  transition: all 0.5s;
+  visibility: hidden;
+  font-size: 1.1em;
+  font-weight: 700;
+  img {
+    margin-top: 33%;
+  }
+}
+.b-from-left {
+  position: relative;
+  left: -100%;
+}
+ul#filters {
+  padding: 0px;
+  text-align: center;
+}
+#filters {
+  margin: 4% 0 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  li {
+    display: inline-block;
+    span {
+      &.active {
+        color: #696969;
+        font-weight: 500;
+      }
+      &:hover {
+        color: #d6d6d6;
+      }
+    }
+  }
+}
+#filters li span.active,
+#filters li span {
+  color: #172f41;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #fff;
+  font-size: 1.15em;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0 0.3em;
+  border-radius: 2px;
+}
+#portfoliolist {
+  .portfolio {
+    width: 31%;
+    display: none;
+    float: left;
+    overflow: hidden;
+    margin: 1%;
+    padding: 0;
+  }
+}
+div#portfoliolist {
+  padding: 0;
+  margin: 1% 0 0 0;
+}
+.portfolio-wrapper {
+  overflow: hidden;
+  position: relative !important;
+  cursor: pointer;
+  img {
+    width: 100%;
+    display: block;
+  }
+  &:hover {
+    div {
+      &.tour-caption {
+        display: block;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+.tour-caption {
+  display: none;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  background: rgba(80, 96, 131, 0.82);
+  height: 100%;
+  text-align: center;
+  padding-top: 16%;
+  span {
+    background: url(../images/eye.png) no-repeat;
+    width: 38px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 77%;
+    right: 46%;
+    background-size: 100%;
+  }
+  h4 {
+    color: #fff;
+    font-size: 2em;
+  }
+  p {
+    color: #fff;
+    font-size: 1em;
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 1em;
+  }
+}
+@media (max-width: 1024px) {
+  .tour-caption {
+    p {
+      font-size: 0.9em;
+      overflow: hidden;
+      height: 50px;
+    }
+    span {
+      top: 69%;
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+  .portfolio {
+    padding: 3em 0;
+  }
+  .tour-caption {
+    h4 {
+      font-size: 1em;
+    }
+    p {
+      font-size: 0.8em;
+      height: 44px;
+    }
+    span {
+      right: 40%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .tour-caption {
+    width: 100%;
+    h4 {
+      font-size: 0.85em;
+      font-size: 1em;
+    }
+    p {
+      font-size: 0.65em;
+      height: 19px;
+      width: 100%;
+      padding-top: 0.5em;
+      font-size: 0.8em;
+      height: 34px;
+    }
+    span {
+      right: 39%;
+      width: 22px;
+      height: 15px;
+      right: 43%;
+      top: 72%;
+    }
+  }
+  .portfolio-head {
+    h3 {
+      font-size: 1.7em;
+    }
+    img {
+      width: 44%;
+    }
+  }
+  #portfoliolist {
+    .portfolio {
+      width: 47%;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .portfolio-head {
+    img {
+      width: 47%;
+    }
+  }
+}
