@@ -1,0 +1,33 @@
+.footer {
+  background: #3a4bcd;
+  color: #fff;
+  font-size: 13px;
+  .logo-footer {
+    text-align: center;
+    padding: 36px 0;
+  }
+  .footer-nav {
+    border-top: 1px solid #6673d4;
+    border-bottom: 1px solid #6673d4;
+    padding: 16px 0;
+    h4 {
+      a {
+        color: #fc0;
+        text-transform: uppercase;
+      }
+    }
+    a {
+      display: block;
+      color: #fff;
+      margin: 16px 0;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .copy-right {
+    text-align: center;
+    padding: 32px 0;
+  }
+}

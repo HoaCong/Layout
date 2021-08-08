@@ -1,0 +1,67 @@
+.top-rank {
+  &_head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #3a4bcd;
+    padding: 8px 0;
+    border-radius: 4px 4px 0 0;
+  }
+  &_body {
+    padding: 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 0 0 4px 4px;
+  }
+  &_item {
+    span {
+      background-repeat: no-repeat;
+    }
+    &:nth-child(2) {
+      span {
+        padding-left: 24px;
+        background-image: url(../../img/gold.png);
+      }
+    }
+    &:nth-child(3) {
+      span {
+        padding-left: 24px;
+        background-image: url(../../img/silver.png);
+      }
+    }
+    &:nth-child(4) {
+      span {
+        padding-left: 24px;
+        background-image: url(../../img/bronze.png);
+      }
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    .left {
+      text-align: start;
+      display: flex;
+      align-items: center;
+    }
+    tr {
+      th {
+        padding: 12px 0;
+      }
+      td {
+        padding: 12px 0;
+      }
+    }
+    tr + tr {
+      border-top: 1px solid #d9d9d9;
+    }
+  }
+  .btn-seemore {
+    margin-top: 16px;
+    color: black;
+    background: #d9d9d9;
+    padding: 8px 24px;
+    width: max-content;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "list_question": [
+    {
+      "id": "30",
+      "question": "5 + 9 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "3"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "13"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "14"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "23"
+        }
+      ],
+      "result_true": "14",
+      "name": "Câu 1"
+    },
+    {
+      "id": "33",
+      "question": "2 + 9 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "7"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "12"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "10"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "11"
+        }
+      ],
+      "result_true": "11",
+      "name": "Câu 2"
+    },
+    {
+      "id": "34",
+      "question": "20+100 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "210"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "120"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "102"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "80"
+        }
+      ],
+      "result_true": "120",
+      "name": "Câu 3"
+    },
+    {
+      "id": "35",
+      "question": "50 + 9 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "59"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "509"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "41"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "60"
+        }
+      ],
+      "result_true": "59",
+      "name": "Câu 4"
+    },
+    {
+      "id": "36",
+      "question": "100 + 90 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "199"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "198"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "192"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "190"
+        }
+      ],
+      "result_true": "190",
+      "name": "Câu 5"
+    },
+    {
+      "id": "37",
+      "question": "20 x 20 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "402"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "404"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "400"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "422"
+        }
+      ],
+      "result_true": "400",
+      "name": "Câu 6"
+    },
+    {
+      "id": "39",
+      "question": "15 x 20  = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "300"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "210"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "301"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "302"
+        }
+      ],
+      "result_true": "300",
+      "name": "Câu 7"
+    },
+    {
+      "id": "38",
+      "question": "800 / 10 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "80"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "20"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "8"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "800"
+        }
+      ],
+      "result_true": "80",
+      "name": "Câu 8"
+    },
+    {
+      "id": "40",
+      "question": "20 + 5= ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "25"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "15"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "35"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "205"
+        }
+      ],
+      "result_true": "25",
+      "name": "Câu 9"
+    },
+    {
+      "id": "41",
+      "question": "1000 / 10 = ?",
+      "results": [
+        {
+          "name_answer": "A",
+          "result_answer": "20"
+        },
+        {
+          "name_answer": "B",
+          "result_answer": "100"
+        },
+        {
+          "name_answer": "C",
+          "result_answer": "10"
+        },
+        {
+          "name_answer": "D",
+          "result_answer": "1"
+        }
+      ],
+      "result_true": "100",
+      "name": "Câu 10"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Bảo",
+      "lastname": "Lê",
+      "numberphone": "0123456789",
+      "email": "bao@gmail.com",
+      "password": "310119",
+      "score": 10,
+      "time": 19,
+      "id": 2
+    },
+    {
+      "firstname": "Xanh",
+      "lastname": "Lê",
+      "numberphone": "0147258369",
+      "email": "xanh@gmail.com",
+      "password": "310119",
+      "score": 7,
+      "time": 26,
+      "id": 3
+    },
+    {
+      "firstname": "Cường",
+      "lastname": "Lê",
+      "numberphone": "0299999545",
+      "email": "cuong@gmail.com",
+      "password": "310119",
+      "score": 6,
+      "time": 17,
+      "id": 4
+    },
+    {
+      "firstname": "Tảo",
+      "lastname": "Lê",
+      "numberphone": "0741456852",
+      "email": "tao@gmail.com",
+      "password": "310119",
+      "score": 0,
+      "time": 0,
+      "id": 5
+    },
+    {
+      "firstname": "Hòa",
+      "lastname": "Lê",
+      "numberphone": "0839117563",
+      "email": "haha@gmail.com",
+      "password": "310119",
+      "score": 0,
+      "time": 0,
+      "id": 6
+    }
+  ]
+}
